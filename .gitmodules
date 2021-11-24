@@ -1,0 +1,3 @@
+[submodule "modules/sentinel-agri"]
+	path = modules/sentinel-agri
+	url = git@github.com:gzileni/sentinel-agri.git
