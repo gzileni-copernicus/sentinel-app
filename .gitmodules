@@ -1,6 +1,3 @@
-[submodule "src/modules/sentinel-agri"]
-	path = src/modules/sentinel-agri
-	url = git@github.com:gzileni/sentinel-agri.git
 [submodule "src/modules/ng-openlayers"]
 	path = src/modules/ng-openlayers
 	url = git@github.com:gzileni/ng-openlayers.git
