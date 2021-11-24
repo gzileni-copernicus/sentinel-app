@@ -21,7 +21,15 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@agri/*": [
+        "src/modules/sentinel-agri/*"
+      ],
+      "@ol/*": [
+        "src/modules/ng-openlayers/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
