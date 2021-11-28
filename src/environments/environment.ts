@@ -5,8 +5,16 @@
 export const environment = {
   production: false,
   search: {
-    url: 'http://localhost:3000',
+    url: 'http://localhost:3000/v1/search',
     prefix: '/search'
+  },
+  data: {
+    url: 'http://localhost:3000/v1/data',
+    prefix: '/data'
+  },
+  preview: {
+    url: 'http://localhost:3000/v1/data/preview',
+    prefix: '/preview'
   }
 }
 

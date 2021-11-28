@@ -1,10 +1,18 @@
 {
   "/search/*":
   {
-    "target": "http://localhost:3000/v1/search/agri",
+    "target": "http://localhost:3000/v1/search",
     "secure": false,
     "logLevel": "error",
     "changeOrigin": true,
     "pathRewrite": {"^/search": ""}
+  },
+  "/data/*":
+  {
+    "target": "http://localhost:3000/v1/data",
+    "secure": false,
+    "logLevel": "error",
+    "changeOrigin": true,
+    "pathRewrite": {"^/data": ""}
   }
 }

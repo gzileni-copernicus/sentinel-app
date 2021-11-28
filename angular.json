@@ -87,10 +87,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "sentinel-app:build:production"
+              "browserTarget": "sentinel-app:build:production",
+              "proxyConfig": "proxy.json"
             },
             "development": {
-              "browserTarget": "sentinel-app:build:development"
+              "browserTarget": "sentinel-app:build:development",
+              "proxyConfig": "proxy.json"
             }
           },
           "defaultConfiguration": "development"
