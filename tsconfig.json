@@ -30,6 +30,9 @@
       ],
       "@ol/*": [
         "src/modules/ng-openlayers/*"
+      ],
+      "@sentinel/*": [
+        "src/modules/ng-sentinel/*"
       ]
     }
   },

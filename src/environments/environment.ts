@@ -11,10 +11,6 @@ export const environment = {
   data: {
     url: 'http://localhost:3000/v1/data',
     prefix: '/data'
-  },
-  preview: {
-    url: 'http://localhost:3000/v1/data/preview',
-    prefix: '/preview'
   }
 }
 
