@@ -7,3 +7,6 @@
 [submodule "src/modules/ng-sentinel"]
 	path = src/modules/ng-sentinel
 	url = git@github.com:gzileni/ng-sentinel.git
+[submodule "src/modules/ng-sentinel-agri"]
+	path = src/modules/ng-sentinel-agri
+	url = git@github.com:gzileni/ng-sentinel-agri.git
